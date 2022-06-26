@@ -1,0 +1,18 @@
+{
+  "name": "myfirstparseserverapp",
+  "version": "1.0.0",
+  "description": "tutorial with parse server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /parse-server/node_modules/.bin/parse-server config/config.json", 
+    "start-local": "node /node_modules/.bin/parse-server config/config.json"
+  },
+  "keywords": [
+    "parse-server"
+  ],
+  "author": "Marc T",
+  "license": "MIT",
+  "dependencies": {
+    "parse-server": "^5.2.3"
+  }
+}
